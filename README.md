@@ -16,7 +16,7 @@ An example program simulates a ternary counter circuit using negative edge trigg
 In this example, output variables are not used; the program prints the clock (`clk`) and state variables (`x`, `y`).
 
 ```python
-# demoprogram.py
+# testTernary.py
 from binarylogicroutine import resetFF, FF2, JKFF
 
 # Initialization Section:
@@ -77,12 +77,12 @@ Download `binarylogicroutine.py`.
 ## 4. **Usage**
 
 Create a program for simulations.  
-For example, create the demoprogram for section 3.1.
+For example, create `testTernary.py` as a test program in section 2.1.
 
-Run the following command to start the program (demoProgram.py):
+Run the following command to start the program (testTernary.py):
 
 ```
-python demoProgram.py
+python testTernary.py
 ```
 
 ## 5. **Detail Description of the Simulation Library**
