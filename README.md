@@ -12,7 +12,7 @@ The `binarylogicroutine` library allows users to perform single-phase synchronou
 
 ### 2.1 Example Program
 
-An example program simulates a ternary counter circuit using negative edge triggered JK flip-flops, where the state `(x, y)` transitions cyclically as `(0, 0) → (0, 1) → (1, 0)`.  
+An example program simulates a ternary counter circuit using negative edge triggered JK flip-flops, where the state `(x, y)` transitions cyclically as `(0, 0) -> (0, 1) -> (1, 0)`.  
 In this example, output variables are not used; the program prints the clock (`clk`) and state variables (`x`, `y`).
 
 ```python
