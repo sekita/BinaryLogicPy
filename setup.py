@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='BinaryLogicPy',
-    version='1.0.0',
+    version='2.0.0',
     py_modules=['binarylogicroutine'],
     description='This library is designed to easily simulate single-phase synchronous logic circuits using flip-flops (JKFF, RSFF, SRFF, DFF, TFF) in a text-based environment.',
     long_description=open('README.md').read(),
