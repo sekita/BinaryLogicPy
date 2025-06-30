@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from setuptools import setup
 
 setup(
@@ -10,7 +11,8 @@ setup(
     author='SEKITA, Iwao',
     author_email='sekita@cs.k.tsukuba-tech.ac.jp',
     url='https://github.com/sekita/BinaryLogicPy',
-    # packages=find_packages(),
+    packages=find_packages(),
+    install_requires=[],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
