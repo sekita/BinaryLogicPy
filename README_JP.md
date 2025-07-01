@@ -10,7 +10,7 @@
   
 ### 2.1 サンプルプログラム  
   
-サンプルプログラムでは、ネガティブエッジトリガの JK フリップフロップを用いた三進カウンタ回路をシミュレートしている。  
+サンプルプログラムでは、ネガティブエッジトリガの JK フリップフロップを用いた３進カウンタ回路をシミュレートしている。  
 このとき状態 `(x1, x2)` は、周期的に `(0, 0) → (0, 1) → (1, 0)` と遷移する。  
   
 この例では出力変数は使用しておらず、代わりにクロック信号（`clk`）と状態変数（`x1`, `x2`）を出力している。  
@@ -87,7 +87,7 @@ pip install git+https://github.com/sekita/BinaryLogicPy.git
 ```bash
 from binarylogicroutine import FlipFlopController
 
-obj = FlipFlopController  
+obj = FlipFlopController()  
 obj.doSomething()
 ```
 

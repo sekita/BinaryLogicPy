@@ -86,7 +86,7 @@ pip install git+https://github.com/sekita/BinaryLogicPy.git
 ```bash
 from binarylogicroutine import FlipFlopController
 
-obj = FlipFlopController  
+obj = FlipFlopController()  
 obj.doSomething()
 ```
 
