@@ -1,0 +1,11 @@
+LICENSE
+README.md
+binarylogicroutine.py
+setup.py
+BinaryLogicPy.egg-info/PKG-INFO
+BinaryLogicPy.egg-info/SOURCES.txt
+BinaryLogicPy.egg-info/dependency_links.txt
+BinaryLogicPy.egg-info/top_level.txt
+tests/testTernaryD.py
+tests/testTernaryJK.py
+tests/testTernarySR.py
