@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# Last updated on 2024.05.14 - Modified to remove global variables
 
 class FlipFlopController:
     """
