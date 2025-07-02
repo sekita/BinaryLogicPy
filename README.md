@@ -1,4 +1,3 @@
-# Single-Phase Synchronous Logic Circuit Simple Simulator
 
 ## 1. **Overview**
 
